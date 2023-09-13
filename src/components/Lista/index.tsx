@@ -1,10 +1,6 @@
 import style from './Lista.module.scss';
 import Item from "./Item";
-
-interface ITarefa {
-    tarefa: string,
-    tempo: string
-}
+import { ITarefa } from '../../types/tarefa';
 
 function Lista({ tarefas }: { tarefas: ITarefa[]}){
     return(
