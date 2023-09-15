@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.4",
     "typescript-plugin-css-modules": "^5.0.1",
     "webpack": "^4.19.1"
   }
